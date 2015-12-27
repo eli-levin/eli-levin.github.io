@@ -1,0 +1,25 @@
+div th {
+    background-color: #D8E9FC;
+    font-family: sans-serif;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+    display: table-cell;
+    font-weight: bold;
+}
+
+table {
+    border-spacing: 0px;
+    border-radius: 15px 15px 15px 15px;
+    border-collapse: separate;
+}
+
+div td {
+    border-radius: 0px 0px 15px 15px;
+}
+
+div pre {
+    background-color: #F2F5FD;
+    text-align: middle;
+    border-radius: 0px 0px 15px 15px;
+    width: 230px;
+}
