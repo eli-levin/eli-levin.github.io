@@ -30,18 +30,20 @@ function makeTiles(){
   }
 }
 
-function ripple(ind){
-  var myBut = "button:nth-child("+ind+")";
-  for(i=0; i<rows; i++) {
-    for(j=0; j<cols; j++){
-      $(myBut).fadeTo(100, 1);
-    }
-  }
-}
+// function ripple(ind){
+//   var myBut = "button:nth-child("+ind+")";
+//   for(i=0; i<rows; i++) {
+//     for(j=0; j<cols; j++){
+//       $(myBut).fadeTo(100, 1);
+//     }
+//   }
+// }
 
-makeTiles();
 
 $(document).ready(function(){
+  //make the disco tiles
+  makeTiles();
+  
   $('button').mouseenter(function(){
     var ind = $(this).index();
     ind++;
