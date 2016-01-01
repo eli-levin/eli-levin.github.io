@@ -48,8 +48,8 @@ $(document).ready(function () {
     h = $('#board').height();
   
     //make the disco tiles
-    var rows = w / 30;
-    var cols = h / 30;
+    var rows = w / 60;
+    var cols = h / 60;
     makeTiles(rows, cols);
 
     $('button').mouseenter(function () {
